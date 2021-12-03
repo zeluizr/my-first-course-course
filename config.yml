@@ -14,3 +14,11 @@ steps:
     link: '{{ repoUrl }}'
     actions:
       - type: closeIssue
+  - title: Criar um arqivos novo
+    actions:
+      - type: createIssue
+        title: nova issue
+        body: a-response-file.md
+    description: Criar um arqivos novo
+    link: vamos
+    event: create
